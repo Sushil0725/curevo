@@ -3,7 +3,16 @@
     "messages": [
       { "id": "m1", "from": "ai", "text": "Hi Riwaz! How can I help you today?", "time": "09:30" },
       { "id": "m2", "from": "you", "text": "I need my latest lab report.", "time": "09:31" },
-      { "id": "m3", "from": "ai", "text": "Sure, you have the reports of HIV and ADs.", "time": "09:32" }
+      { "id": "m3", "from": "ai", "text": "Sure, Sorry you re found to be gay", "time": "09:32" },
+      { "id": "m4", "from": "you", "text": "Yes, I knew that early", "time": "09:32" },
+      { "id": "m5", "from": "ai", "text": "Hi Riwaz! How can I help you today?", "time": "09:30" },
+      { "id": "m6", "from": "you", "text": "I need my latest lab report.", "time": "09:31" },
+      { "id": "m7", "from": "ai", "text": "Sure, Sorry you re found to be gay", "time": "09:32" },
+      { "id": "m8", "from": "you", "text": "Yes, I knew that early", "time": "09:32" },
+      { "id": "m9", "from": "ai", "text": "Hi Riwaz! How can I help you today?", "time": "09:30" },
+      { "id": "m10", "from": "you", "text": "I need my latest lab report.", "time": "09:31" },
+      { "id": "m11", "from": "ai", "text": "Sure, Sorry you re found to be gay", "time": "09:32" },
+      { "id": "m12", "from": "you", "text": "Yes, I knew that early", "time": "09:32" }
     ]
   },
   "records": [
@@ -17,7 +26,28 @@
     "phone": "+1 555-0101",
     "avatar": "https://picsum.photos/200",
     "settings": { "notifications": true, "darkMode": false }
-  }
+  },
+  "vitals": [
+    { "id": "v1", "name": "Heart Rate", "value": 72, "unit": "bpm" },
+    { "id": "v2", "name": "Blood Pressure", "value": "118/76", "unit": "mmHg" },
+    { "id": "v3", "name": "SpO2", "value": 98, "unit": "%" }
+  ],
+  "appointments": [
+    { "id": "a1", "title": "Dr. Smith – Cardiology", "date": "Apr 20, 2025", "time": "10:30 AM" },
+    { "id": "a2", "title": "Nutritionist – Follow-up", "date": "May 3, 2025", "time": "02:00 PM" }
+  ],
+  "medications": [
+    { "id": "m1", "name": "Atorvastatin", "dose": "10 mg", "schedule": "Once daily" },
+    { "id": "m2", "name": "Metformin", "dose": "500 mg", "schedule": "Twice daily" }
+  ],
+  "providers": [
+    { "id": "p1", "name": "Dr. Sarah Smith", "specialty": "Cardiology" },
+    { "id": "p2", "name": "Dr. John Lee", "specialty": "Endocrinology" }
+  ],
+  "insights": [
+    { "id": "i1", "title": "Your heart rate is steady", "detail": "Resting HR averages 72 bpm this week." },
+    { "id": "i2", "title": "Keep hydrated", "detail": "Water intake was below target on 3 days." }
+  ]
 }
 
 
