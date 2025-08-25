@@ -1,0 +1,23 @@
+{
+  "chat": {
+    "messages": [
+      { "id": "m1", "from": "ai", "text": "Hi Riwaz! How can I help you today?", "time": "09:30" },
+      { "id": "m2", "from": "you", "text": "I need my latest lab report.", "time": "09:31" },
+      { "id": "m3", "from": "ai", "text": "Sure, you have the reports of HIV and ADs.", "time": "09:32" }
+    ]
+  },
+  "records": [
+    { "id": "r1", "title": "CBC Report", "date": "Apr 1, 2025" },
+    { "id": "r2", "title": "X-Ray Chest", "date": "Mar 02, 2025" },
+    { "id": "r3", "title": "MRI Brain", "date": "Jan 18, 2025" }
+  ],
+  "profile": {
+    "name": "Alex Johnson",
+    "email": "alex.johnson@example.com",
+    "phone": "+1 555-0101",
+    "avatar": "https://picsum.photos/200",
+    "settings": { "notifications": true, "darkMode": false }
+  }
+}
+
+

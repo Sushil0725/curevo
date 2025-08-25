@@ -2,6 +2,7 @@ import { Container } from 'components/Container';
 import { Footer } from 'components/Footer';
 import { Header } from 'components/Header';
 import { Pressable, ScrollView, Text, TextInput, View } from 'react-native';
+import data from 'src/datas.json';
 
 type RecordsProps = {
   onNavigate?: (route: string) => void;
@@ -20,11 +21,7 @@ export default function Records({ onNavigate }: RecordsProps) {
             </Pressable>
           </View>
           <ScrollView className="flex-1" contentContainerStyle={{ paddingVertical: 6 }}>
-            {[
-              { id: 'r1', title: 'CBC Report', date: 'Apr 12, 2025' },
-              { id: 'r2', title: 'X-Ray Chest', date: 'Mar 02, 2025' },
-              { id: 'r3', title: 'MRI Brain', date: 'Jan 18, 2025' },
-            ].map((rec) => (
+            {data.records.map((rec) => (
               <View key={rec.id} className="mb-3 rounded-xl bg-white p-4 shadow">
                 <Text className="text-base font-semibold">{rec.title}</Text>
                 <Text className="text-xs text-gray-500">{rec.date}</Text>
