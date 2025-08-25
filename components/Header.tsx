@@ -13,7 +13,7 @@ export const Header = ({ title = 'Curevo' }: HeaderProps) => {
 };
 
 const styles = {
-  wrapper: 'w-full py-9 px-6 bg-emerald-500 border-b border-gray-200 mt-1',
+  wrapper: 'w-full pt-10 pb-2 px-6 bg-emerald-500 border-b border-gray-200',
   title: 'text-2xl font-bold text-center text-white',
 };
 
