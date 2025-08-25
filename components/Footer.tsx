@@ -13,8 +13,8 @@ type FooterProps = {
 
 const defaultButtons: FooterButton[] = [
   { key: 'home', label: 'Home', icon: '🏠' },
-  { key: 'search', label: 'Search', icon: '🔎' },
-  { key: 'alerts', label: 'Alerts', icon: '🔔' },
+  { key: 'Chat', label: 'Chat', icon: '💭' },
+  { key: 'Records', label: 'Records', icon: '📝' },
   { key: 'profile', label: 'Profile', icon: '👤' },
 ];
 

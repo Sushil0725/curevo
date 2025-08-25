@@ -4,9 +4,13 @@ import { Footer } from 'components/Footer';
 import { Header } from 'components/Header';
 import { ScrollView, View } from 'react-native';
 
-export default function Home() {
+type HomeProps = {
+  onNavigate?: (route: string) => void;
+};
+
+export default function Home({ onNavigate }: HomeProps) {
   const handleFooterPress = (key: string) => {
-    console.log('Footer pressed:', key);
+    onNavigate?.(key);
   };
   return (
     <View className="flex-1 bg-gray-100">
